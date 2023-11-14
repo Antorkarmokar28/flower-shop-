@@ -104,3 +104,24 @@ section{
     font-size: 24px;
     font-weight: 700;
 }
+/* product service info section style start */
+.product-service-info-wrapper{
+    display: flex;
+    gap: 80px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 86px 130px;
+    border-radius: 8px;
+}
+.product-service-info-inner{
+
+}
+.product-service-info-inner img{
+    display: block;
+    margin: 0 auto;
+}
+.product-service-info-title{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
