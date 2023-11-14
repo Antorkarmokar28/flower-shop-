@@ -112,9 +112,6 @@ section{
     padding: 86px 130px;
     border-radius: 8px;
 }
-.product-service-info-inner{
-
-}
 .product-service-info-inner img{
     display: block;
     margin: 0 auto;
@@ -124,4 +121,35 @@ section{
     text-align: center;
     margin-top: 20px;
     font-weight: 600;
+}
+/* hot deal section style start */
+section.hot-deal{
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-wrapper{
+    display: flex;
+    gap: 200px;
+    padding: 100px 43px;
+    align-items: center;
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.color-hot-deal{
+    color: #E55473;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.hot-deal-inner img{
+    width: 100%;
+    height: 100%;
 }
